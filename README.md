@@ -9,24 +9,34 @@
 
 ## 启动后端服务器
 
-1. 进入 rust-server 目录：   ```
-   cd rust-server   ```
+1. 进入 rust-server 目录：  
+```shell
+cd rust-server
+```
 
-2. 运行 Rust 服务器：   ```
-   cargo run   ```
+3. 运行 Rust 服务器：   
+```shell
+cargo run   
+```
 
-   服务器将在 http://localhost:3000 上运行。
+服务器将在 http://localhost:3000 上运行。
 
 ## 启动前端服务器
 
-1. 进入 frontend 目录：   ```
-   cd frontend   ```
+1. 进入 frontend 目录：   
+```shell
+cd frontend  
+```
 
-2. 使用 Node.js 的 http-server 或类似工具启动一个简单的 HTTP 服务器。如果你没有安装 http-server，可以通过 npm 安装：   ```
-   npm install -g http-server   ```
+3. 使用 Node.js 的 http-server 或类似工具启动一个简单的 HTTP 服务器。如果你没有安装 http-server，可以通过 npm 安装：   
+```shell
+npm install -g http-server   
+```
 
-3. 启动前端服务器：   ```
-   http-server -p 8080   ```
+5. 启动前端服务器：   
+```shell
+http-server -p 8080   
+```
 
    前端页面将在 http://localhost:8080 上可用。
 
